@@ -5,8 +5,11 @@
 === _May 5th, 2023_
 
 #set text(14pt)
-= IMAGE GOES HERE
-- VEX Robotics Competition Over Under is played on a 12’ x 12’ square field configured as seen above. Two (2) Alliances – one (1) “red” and one (1) “blue” – composed of two (2) Teams each, compete in matches consisting of a fifteen (15) second Autonomous Period, followed by a one minute and forty-five second (1:45) Driver Controlled Period.
+#figure(
+  image("assets/over_under_field.png")
+)
+- VEX Robotics Competition Over Under is played on a 12’ x 12’ square field configured as seen above.
+- Two (2) Alliances – one (1) “red” and one (1) “blue” – composed of two (2) Teams each, compete in matches consisting of a fifteen (15) second Autonomous Period, followed by a one minute and forty-five second (1:45) Driver Controlled Period.
 - There are sixty (60) Triballs on a VRC Over Under Field.
 - There are two netted Goals on opposite sides of the field. A 3” PVC Barrier divides the field into a Red Offensive Zone and a Blue Offensive Zone.
 - Each Triball scored in a Goal is worth five (5) points, and each Triball which makes it into an Offensive Zone is worth two (2) points.
