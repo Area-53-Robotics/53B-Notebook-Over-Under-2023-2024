@@ -1,5 +1,6 @@
 #set text(22pt)
 = Name Reveal - Over Under
+#line(length: 100%)
 
 #set text(18pt)
 === _April 22nd, 2023_

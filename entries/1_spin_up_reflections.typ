@@ -3,6 +3,7 @@
 ))
 #set text(22pt)
 = Spin Up Reflections
+#line(length: 100%)
 
 #set text(18pt)
 == #(text(blue)[

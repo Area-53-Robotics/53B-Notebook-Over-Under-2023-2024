@@ -1,5 +1,6 @@
 #set text(22pt)
 = Team Efficiency (Gabriel)
+#line(length: 100%)
 
 #set text(18pt)
 _Akin's Law of Spacecraft Design: 53B Edition_
