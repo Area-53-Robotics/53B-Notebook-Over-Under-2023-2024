@@ -1,8 +1,11 @@
+//cover
+#include "entries/cover.typ"
 
 //Table of Contents
 
 
 //Intro Section
+#include "entries/about.typ"
 #include "entries/introductions.typ"
 
 //Pre-building Entires

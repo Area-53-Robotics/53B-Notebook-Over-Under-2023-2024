@@ -1,9 +1,9 @@
-#import "/templates/entries.typ": create_default_entry
+#import "/templates/entries.typ": *
 #import "/templates/headers.typ": *
 #import "/templates/text.typ": *
 
 #create_default_entry(
-  title: [Name Reveal - Over Under],
+  title: [Name Reveal: Over Under],
   date: [April 22nd, 2023],
   design: [],
   witness: [],

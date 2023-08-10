@@ -1,12 +1,10 @@
-#import "/templates/entries.typ": create_default_entry
+#import "/templates/entries.typ": *
 #import "/templates/headers.typ": *
 #import "/templates/text.typ": *
 
-#create_default_entry(
+#create_footerless_page(
   title: [Spin Up Reflections],
   date: [],
-  design: [],
-  witness: [],
   content:[
     #box_header(
       title: [Gabriel: Networking],
@@ -14,14 +12,15 @@
     ) \
     #entry_text()
     We've discovered that one of the most effective ways to learn is through engaging conversations with teams from diverse regions. Despite not qualifying for the world championships, a golden opportunity emerged at the US Open when we had the chance to connect with a remarkable team that would eventually make it to the top 8 teams at Worlds: team 2775V. Their insights were invaluable, and they introduced us to their ingenious creation – the JAR Template. The template includes everything needed in the programming aspect, from PID to Odometry. The best part is that it is compatible with Vexcode V5 Pro, which most are not. It was also great to learn about how they approach alliances, prepare for matches, and their communication in the driving pit.
+    
+    #image("/assets/gabe_and_sammy.jpg")
 
-    #figure(
-      image("/assets/gabe_and_sammy.jpg"),
-      caption: [
-        #entry_text()
-        Gabriel with members of 2775v at US Open
-      ]
-    )
+    #entry_text()
+    #align(center)[
+      _Gabriel with members of 2775V at US Open_
+    ]
+    
+  
 
     #box_header(
       title: [Jin: Cad],
@@ -36,7 +35,13 @@
     ) \
     #entry_text()
     Last season, we realized the importance of consistent and sufficient practice for our driver to perform at their best. While we faced challenges in tournaments due to inadequate practice time, we have learned from this and are taking a new approach this season. As the current driver, I have prioritized practicing fundamental skills, such as maneuvering around obstacle courses, to improve my driving abilities. By tracking my progress and regularly practicing, I am confident that I will be able to compete at a higher level and contribute to the team's success in this season.
+  ]
+)
 
+#create_headerless_page(
+  design: [],
+  witness: [],
+  content: [
     #box_header(
     title: [Gabriel: Team Efficiency],
     color: blue.lighten(60%)
