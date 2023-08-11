@@ -1,5 +1,6 @@
 #let create_default_entry(title: [], date: [], design: [], witness: [], content: []) = {
     page(
+
         header: [
             #grid(
                 columns: (2fr, 1fr),
@@ -22,23 +23,21 @@
             )
         #line(length: 100%, stroke: 1.5pt)
         ],
+
         footer: [
             #line(length: 100%, stroke: 1.5pt)
             #grid(
-                columns: (1fr, 1fr),
+                columns: (3fr,1fr),
                 align(left)[
                     #set text(
                     font: "Times New Roman",
-                    14pt
+                    12pt
                     )
-                    *Designed by:*  #emph()[#design]
+                    Designed by:  #emph()[#design] \
+                    Witnessed by:  #emph()[#witness]
                 ],
                 align(right)[
-                    #set text(
-                    font: "Times New Roman",
-                    14pt
-                    )
-                    *Witnessed by:*  #emph()[#witness]
+                    #counter(page).display()
                 ],
             )
         ],
@@ -52,23 +51,20 @@
         footer: [
             #line(length: 100%, stroke: 1.5pt)
             #grid(
-                columns: (1fr, 1fr),
+                columns: (3fr, 1fr),
                 align(left)[
                     #set text(
                     font: "Times New Roman",
-                    14pt
+                    12pt
                     )
-                    *Designed by:*  #emph()[#design]
+                    Designed by:  #emph()[#design] \
+                    Witnessed by:  #emph()[#witness]
                 ],
                 align(right)[
-                    #set text(
-                    font: "Times New Roman",
-                    14pt
-                    )
-                    *Witnessed by:*  #emph()[#witness]
+                    #counter(page).display() 
                 ],
             )
-        ]
+        ],
     )[
         #content
     ]
@@ -97,7 +93,9 @@
                 ],
             )
         #line(length: 100%, stroke: 1.5pt)
-        ]
+        ],
+        numbering: "1",
+        number-align: right
     )[
         #content
     ]

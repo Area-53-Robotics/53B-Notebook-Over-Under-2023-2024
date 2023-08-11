@@ -58,5 +58,12 @@
     Juan, our scout, is following Pareto's Law, which prioritizes the most impactful data. He is gathering and analyzing key information to inform our strategy for each match, maximizing our scouting efficiency.
 
     As a team, we are committed to notebooking and documenting our progress and lessons learned. By following Akin's Law of Spacecraft Design, Conway's Law, Murphy's Law, and Pareto's Law, we are working together cohesively to achieve success in our upcoming Vex Robotics competition.
+
+    #box_header(
+      title: [David: Organization],
+      color: purple.lighten(60%)
+    ) \
+    #entry_text()
+    Last season, organization was a big problem for our team. Things were constantly getting lost, and it created many situations where we had to compromise. This year, I want to have an emphasis on orgnized workflow, as well as more orgnized operation of the bot. One change we have decided to make is making our notebook virtual. This allows work to be split a lot easier, and prevents one member from being overwhelmed.
   ]
 )

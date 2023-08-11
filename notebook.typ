@@ -1,8 +1,8 @@
-//cover
-#include "entries/cover.typ"
+//Cover
+#include "cover.typ"
 
 //Table of Contents
-
+#include "toc.typ"
 
 //Intro Section
 #include "entries/about.typ"

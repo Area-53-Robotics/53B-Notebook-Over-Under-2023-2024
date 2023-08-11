@@ -1,9 +1,9 @@
 #align(center)[
     #set text(
         font: "Times New Roman",
-        30pt
+        35pt
     )    
-    = Engineering Notebook
+    == Engineering Notebook
 
     Team 53B
 
@@ -15,4 +15,6 @@
 
     == Over Under
     2023 - 2024
+    
+    #pagebreak()
 ]
