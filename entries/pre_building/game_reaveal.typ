@@ -16,7 +16,7 @@
     After the reveal was released, I instantly thought of the importance of a small drivetrain, i.e 25-30 holes long, this is so that you can easily maneuver under the objects even if someone were to block the path. To add on to the drivetrain, I think it's important to be able to drive over the middle bar, so 4-inch wheels should be used this season. As for the RPM of the drivetrain, I think it should be circa 350 rpm. Also, the fact that there are more game objects that are match load-ins it is important to fastly place and shoot from the match load area.  The way I think this is possible is by using a puncher that will be ratcheted to the intake for fast cycle times. For the endgame phase of the match, I think a piston that attaches to the pole and a motor connected to wheels to move up the bar will  maximize points. Another good idea I thought of could be to pick up your alliance and carry them, since the points are relative to the highest point. Also, the new introduction of the watt limit is interesting.
 
     #box_header(
-      title: [David],
+      title: [Deb],
       color: purple.lighten(60%)
     ) \
     #entry_text()

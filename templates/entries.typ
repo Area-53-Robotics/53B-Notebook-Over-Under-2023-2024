@@ -21,11 +21,11 @@
                     #emph()[#date]
                 ],
             )
-        #line(length: 100%, stroke: 1.5pt)
+        #align(center)[#line(length: 100%, stroke: 1.5pt)]
         ],
 
         footer: [
-            #line(length: 100%, stroke: 1.5pt)
+            #align(center)[#line(length: 100%, stroke: 1.5pt)]
             #grid(
                 columns: (3fr,1fr),
                 align(left)[
@@ -49,7 +49,7 @@
 #let create_headerless_page(design: [], witness: [], content: []) = {
     page(
         footer: [
-            #line(length: 100%, stroke: 1.5pt)
+            #align(center)[#line(length: 100%, stroke: 1.5pt)]
             #grid(
                 columns: (3fr, 1fr),
                 align(left)[
@@ -92,7 +92,7 @@
                     #emph()[#date]
                 ],
             )
-        #line(length: 100%, stroke: 1.5pt)
+        #align(center)[#line(length: 100%, stroke: 1.5pt)]
         ],
         numbering: "1",
         number-align: right

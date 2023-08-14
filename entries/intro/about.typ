@@ -2,11 +2,9 @@
 #import "/templates/headers.typ": *
 #import "/templates/text.typ": *
 
-#create_default_entry(
+#create_footerless_page(
     title: [Notebook Workflow],
     date: [],
-    design: [Deb],
-    witness: [Gabe],
     content: [
         #entry_header(
             title: [Why Digital?]
@@ -66,7 +64,27 @@
             title: [Custom Functions with Typst!],
             color: blue.lighten(75%)
         )
+    ]
+)
 
-
+#create_headerless_page(
+    design: [Deb],
+    witness: [Gabe],
+    content: [
+        #entry_header(
+            title: [Understanding Colors]
+        )
+        #entry_text()
+        This notebook uses color coordination to represent who sections were written by or who they highlight, as this allows us to visualize how the work is being shared. Below is a reference table with each color and its respective meaning.
+        
+        #table(
+            columns: (1fr,1fr),
+            rows: (5),
+                [#box_header(title:[Blue],color:blue.lighten(60%))],[#entry_header(title:[Gabriel])],
+                [#box_header(title:[Yellow],color:yellow.lighten(60%))],[#entry_header(title:[Jin])],
+                [#box_header(title:[Purple],color:purple.lighten(60%))],[#entry_header(title:[Deb])],
+                [#box_header(title:[Red],color:red.lighten(60%))],[#entry_header(title:[Imaad])],
+                [#box_header(title:[Green],color:green.lighten(60%))],[#entry_header(title:[Juan])],
+        )
     ]
 )

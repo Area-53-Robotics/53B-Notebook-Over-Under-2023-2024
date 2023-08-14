@@ -7,7 +7,7 @@
   date: [],
   content:[
     #box_header(
-      title: [Gabriel: Networking],
+      title: [Networking],
       color: blue.lighten(60%)
     ) \
     #entry_text()
@@ -23,14 +23,14 @@
   
 
     #box_header(
-      title: [Jin: Cad],
+      title: [Cad],
       color: yellow.lighten(60%)
     ) \
     #entry_text()
     Last season there was a concern regarding the lack of designing and planning in the club. The coaches noticed that the team was building robots blindly and recommended spending some independent time creating CADs before starting to build. The benefit of creating a CAD design for a drive-train before attempting to physically create it is that it allows for freely changing the spacing of the gears to get it correct and as compact as possible. Below is a prototype of a 6 motor drive, which the team might plan to recreate. The drivetrain uses a 3:5 ratio, 3 '25 omni wheels, and an RPM of 360.
 
     #box_header(
-    title: [Immad: Driving],
+    title: [Driving],
     color: red.lighten(60%)
     ) \
     #entry_text()
@@ -43,7 +43,7 @@
   witness: [],
   content: [
     #box_header(
-    title: [Gabriel: Team Efficiency],
+    title: [Team Efficiency],
     color: blue.lighten(60%)
     ) \
     #entry_text()
@@ -60,10 +60,10 @@
     As a team, we are committed to notebooking and documenting our progress and lessons learned. By following Akin's Law of Spacecraft Design, Conway's Law, Murphy's Law, and Pareto's Law, we are working together cohesively to achieve success in our upcoming Vex Robotics competition.
 
     #box_header(
-      title: [David: Organization],
+      title: [Organization],
       color: purple.lighten(60%)
     ) \
     #entry_text()
-    Last season, organization was a big problem for our team. Things were constantly getting lost, and it created many situations where we had to compromise. This year, I want to have an emphasis on orgnized workflow, as well as more orgnized operation of the bot. One change we have decided to make is making our notebook virtual. This allows work to be split a lot easier, and prevents one member from being overwhelmed.
+    Last season, organization was a big problem for our team. Things were constantly getting lost, and it created many situations where we had to compromise. This year, I want to have an emphasis on organized workflow, as well as more organized operation of the bot. One change we have decided to make is making our notebook virtual. This allows work to be split a lot easier, and prevents one member from being overwhelmed.
   ]
 )

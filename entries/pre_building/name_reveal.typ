@@ -16,7 +16,7 @@
     When the game, “Over Under”, was first announced I thought that it would follow Vex’s usual cycle of games, meaning that the game will involve stacking. However, now I think that the robot will have to do more with moving through obstacles efficiently.
 
     #box_header(
-      title: [David],
+      title: [Deb],
       color: purple.lighten(60%)
     ) \
     #entry_text()

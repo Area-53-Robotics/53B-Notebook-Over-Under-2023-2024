@@ -5,11 +5,16 @@
 #include "toc.typ"
 
 //Intro Section
-#include "entries/about.typ"
-#include "entries/introductions.typ"
+#include "entries/intro/about.typ"
+#include "entries/intro/introductions.typ"
 
 //Pre-building Entires
-#include "entries/spin_up_reflections.typ"
-#include "entries/name_reveal.typ"
-#include "entries/game_reaveal.typ"
-#include "entries/rules.typ"
+#include "entries/pre_building/spin_up_reflections.typ"
+#include "entries/pre_building/name_reveal.typ"
+#include "entries/pre_building/game_reaveal.typ"
+#include "entries/pre_building/rules.typ"
+
+//Summer Break
+#include "entries/summer/cad.typ"
+
+//
