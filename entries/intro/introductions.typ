@@ -131,7 +131,7 @@
                     ],
                     align(left)[
                         #entry_header(
-                            title: [Juan]
+                            title: [Juan Jardon-Salazar]
                         )
                         #line(length: 10%)
                         #entry_text()
