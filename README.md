@@ -4,4 +4,7 @@
 ### Experimenting with Typst:
 https://typst.app/
 
-### Thank you Felix for helping
+### Compile With:
+`$ typst compile notebook.typ`
+
+### Thank you Felix for Assistance
