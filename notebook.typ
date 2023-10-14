@@ -17,4 +17,5 @@
 //Summer Break
 #include "entries/summer/cad.typ"
 
-//
+//Early Season
+#include "entries/early_season/building_drive.typ"

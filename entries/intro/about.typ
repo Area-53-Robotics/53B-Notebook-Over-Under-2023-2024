@@ -6,9 +6,11 @@
     title: [Notebook Workflow],
     date: [],
     content: [
-        #entry_header(
-            title: [Why Digital?]
+        #box_header(
+            title: [Why Digital?],
+            color: purple.lighten(60%)
         )
+
         #entry_text()
         Last year, our notebook workflow was very disorganized and pushed most of the work onto one team member. Not only was this unfair, it also meant that our notebook was not the highest quality and one person was doing more work than they needed to. So this year, we have decided to do an all virtual notebook, where entries are written by all the team members, and the "notebooker" is the one formatting them.
 
@@ -75,7 +77,7 @@
             title: [Understanding Colors]
         )
         #entry_text()
-        This notebook uses color coordination to represent who sections were written by or who they highlight, as this allows us to visualize how the work is being shared. Below is a reference table with each color and its respective meaning.
+        This notebook uses color coordination to represent who sections were written by or who they highlight, as this allows us to visualize how the work is being shared. Below is a reference table with each color and its respective meaning. Any subsequent sub headers are content written by the same person, but may focus on something else.
         
         #table(
             columns: (1fr,1fr),

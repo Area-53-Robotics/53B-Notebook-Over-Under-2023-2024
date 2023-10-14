@@ -100,3 +100,12 @@
         #content
     ]
 }
+
+#let create_blank_page(content: []) = {
+    page(
+        numbering: "1",
+        number-align: right
+    )[
+        #content
+    ]
+}
