@@ -29,20 +29,13 @@
     ]
 )
 
-#create_blank_page(
-    content: [
-        #entry_header(title: [The Plan])
-        #entry_text()
-        Initially, we feared that we wouldn't have enough motors to properly power every subsystem. However, with the introduction of the new 5.5 watts motors and the implementation of a gear transmission system (also known as a PTO) we plan to be able to better manage the power requirements.
-
-        #entry_header(title: [Intake])
-        #entry_text()
-        The recently introduced 5.5 watt motors have half the power of a normal 11 watt motor. This means that we can have more than 8 motors on our bot, as we can use two 5.5 watt motor for every 11 watt motor. We want to use 5.5 watt motors on our intake to save on wattage.
-
+#create_headerless_page(
+    design: [Jin],
+    witness: [Deb],
+    content: [ 
         #entry_header(title: [Drive Train])
         #entry_text()
-
-        //TO BE FINISHED
-
+        Here is the initial CAD of our drive train. It has 6 motors, which we decided to use instead of instead of 4 so that we could have more speed and power. It is also fairly compact, with the central cross bars only being 20 holes long.
+        #image("/assets/drive_cad.png")
     ]
 )
