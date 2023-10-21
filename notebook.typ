@@ -15,7 +15,9 @@
 #include "entries/pre_building/rules.typ"
 
 //Summer Break
+#include "entries/summer/plan.typ"
 #include "entries/summer/cad.typ"
+
 
 //Early Season
 #include "entries/early_season/building_drive.typ"
