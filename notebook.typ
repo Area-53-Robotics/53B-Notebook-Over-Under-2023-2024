@@ -21,3 +21,4 @@
 
 //Early Season
 #include "entries/early_season/building_drive.typ"
+#include "entries/early_season/trouble_shoot_drive.typ"
