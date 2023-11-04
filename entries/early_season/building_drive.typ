@@ -6,7 +6,10 @@
     title: [Building Drive Train],
     date: [September 23rd, 2023],
     content: [
-        #entry_header(title: [Drive Train Specs])
+        #box_header(
+            title: [Drive Train Specs],
+            color: purple.lighten(60%)
+        ) \
         #entry_text()
 
         #table(
@@ -22,9 +25,11 @@
             [*Motor Wattage*: The amount of wattage the motors have.], [11 Watts]
         )
 
-        #entry_header(title: [Wheel Axle Design])
+        #box_header(
+            title: [Wheel Axle Design],
+            color: yellow.lighten(60%)
+        ) \
         #entry_text()
-
         The wheels will be screw-joints. It is better to use a screw joint than axles because it is more secure and is easier to reduce friction, since the wheels are freespinning inetead of the axle spinning. 
 
         #grid(
@@ -47,7 +52,7 @@
             rows: auto,
             columns: (1fr, 1fr),
             column-gutter: 10pt,
-            image("/assets/gear_axle.png"),
+            image("/assets/gear_axle.png", width: 90%),
             [
                 \ \ \ \ \ \ \ \
                 Axle $-->$ washer $-->$ $1/8$" spacer $-->$ 48 tooth gear $3/8$" spacer $-->$ $1/2$" spacer $-->$ collar $-->$ washer
