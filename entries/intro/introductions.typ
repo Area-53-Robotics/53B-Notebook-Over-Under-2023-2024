@@ -12,7 +12,7 @@
             rows: (10fr,1fr,10fr,1fr,10fr,1fr,10fr,1fr,10fr),
             [
                 #box(
-                    fill: blue.lighten(60%),
+                    fill: purple.lighten(60%),
                     radius: 3pt,
                     inset: 9pt,
                     width: 1fr
@@ -20,18 +20,19 @@
                 #grid(
                     columns: (2fr,5fr),
                     align(left)[
-                        #image("/assets/members/gabe.jpg")
+                        #image("/assets/members/david.jpg")
                     ],
                     align(left)[
                         #entry_header(
-                            title: [Gabriel Cruz]
+                            title: [David Blaufuss (Deb)]
                         )
                         #line(length: 10%)
                         #entry_text()
-                        - 12th Grade
-                        - Team Lead
-                        - Programmer
-                        - First Season: Tipping Point
+                        - 11th Grade
+                        - Team Leader
+                        - Builder
+                        - Notebooker
+                        - First Season: Spin Up
                     ]
                     )
                 ]
@@ -66,7 +67,7 @@
             [],
             [
                 #box(
-                    fill: purple.lighten(60%),
+                    fill: blue.lighten(60%),
                     radius: 3pt,
                     inset: 9pt,
                     width: 1fr
@@ -74,20 +75,20 @@
                 #grid(
                     columns: (2fr,5fr),
                     align(left)[
-                        #image("/assets/members/david.jpg")
+                        #image("/assets/members/gabe.jpg")
                     ],
                     align(left)[
                         #entry_header(
-                            title: [David Blaufuss (Deb)]
+                            title: [Gabriel Cruz]
                         )
                         #line(length: 10%)
                         #entry_text()
-                        - 11th Grade
+                        - 12th Grade
                         - Builder
-                        - Notebooker
-                        - First Season: Spin Up
+                        - Programmer
+                        - First Season: Tipping Point
                     ]
-                    )
+                )
                 ]
             ],
             [],

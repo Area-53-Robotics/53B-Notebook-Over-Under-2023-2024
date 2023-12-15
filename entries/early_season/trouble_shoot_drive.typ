@@ -4,7 +4,7 @@
 
 #create_default_entry(
     title: [Drive Train Issues],
-    date: [September 30th, 2023],
+    date: [September 29th, 2023],
     witness: [Gabe],
     design: [Deb],
     content: [

@@ -21,3 +21,4 @@
 #include "entries/early_season/intro_meta.typ"
 #include "entries/early_season/building_drive.typ"
 #include "entries/early_season/trouble_shoot_drive.typ"
+#include "entries/early_season/intake.typ"
