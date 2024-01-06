@@ -22,3 +22,7 @@
 #include "entries/early_season/building_drive.typ"
 #include "entries/early_season/trouble_shoot_drive.typ"
 #include "entries/early_season/intake.typ"
+#include "entries/early_season/building_cata.typ"
+#include "entries/early_season/drive_loctite.typ"
+#include "entries/early_season/driver.typ"
+#include "entries/early_season/scrim.typ"
