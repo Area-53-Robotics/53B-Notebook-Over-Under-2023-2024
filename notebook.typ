@@ -24,10 +24,9 @@
 #include "entries/early_season/intake.typ"
 #include "entries/early_season/drive_loctite.typ"
 #include "entries/early_season/scrim.typ"
-
-// Dulaney Royal Rumble
 #include "entries/competitions/dulaney.typ"
 
 // Mid Season
 #include "entries/mid_season/cata_fix.typ"
 #include "entries/mid_season/driver.typ"
+#include "entries/competitions/hereford.typ"
